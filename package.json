@@ -1,27 +1,31 @@
 {
-  "name": "codeskewl",
-  "version": "0.1.0",
-  "private": true,
+  "name": "codeskewl-nextra",
+  "version": "0.0.1",
+  "description": "Codeskewl built with Nextra.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeskewl/codeskewl-nextra.git"
+  },
+  "author": "Shu Ding <g@shud.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeskewl/codeskewl-nextra/issues"
+  },
+  "homepage": "https://nextra.codeskewl.com",
   "dependencies": {
-    "@chakra-ui/react": "^2.4.2",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.9",
-    "framer-motion": "^7.6.15",
-    "next": "13.0.5",
-    "nextra": "^2.0.1",
-    "nextra-theme-docs": "^2.0.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.7.1",
-    "typescript": "4.9.3"
+    "next": "^13.0.6",
+    "nextra": "2.0.1",
+    "nextra-theme-docs": "2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "^4.9.3"
   }
 }
