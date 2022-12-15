@@ -25,3 +25,15 @@ a {
   }
 }
 
+
+.chakra-accordion__item {
+  border-style: none !important;
+}
+
+.chakra-accordion__item::before {
+  border-style: none !important;
+}
+
+.chakra-accordion__item::after {
+  border-style: none !important;
+}
