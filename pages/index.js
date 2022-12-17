@@ -30,7 +30,8 @@ export default function Home() {
 
 
 
-      <Box py={[5, 10, 20]} px={[6, 6, 12]}>
+
+      <Box py={[5, 10, 20]} px={[6, 6, 12]} mt={8}>
         <Text
           bgGradient={"linear-gradient(270deg,#db59ff 8.88%,#6870de 52.13%,#2ecae6 86.08%)"}
           bgClip='text'
@@ -39,6 +40,10 @@ export default function Home() {
           mb={4}
         >
           Welcome to Codeskewl
+        </Text>
+
+        <Text mb={8}>
+          Codeskewl is an interactive set of resources meant to increase your visibility with regards to what's possible on the web and beyond.
         </Text>
 
 

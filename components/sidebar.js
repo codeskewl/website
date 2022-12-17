@@ -150,10 +150,8 @@ function Sidebar() {
 											</Box>
 										</Stack>
 
-
 									</AccordionPanel>
 								</AccordionItem>
-
 							</Accordion>
 						</Stack>
 					</DrawerBody>
