@@ -28,110 +28,36 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Box height={"72px"}>
-      </Box>
+
+
       <Box py={[5, 10, 20]} px={[6, 6, 12]}>
         <Text
-          bgGradient='linear(-15deg, #FF0080, #7928CA)'
+          bgGradient={"linear-gradient(270deg,#db59ff 8.88%,#6870de 52.13%,#2ecae6 86.08%)"}
           bgClip='text'
           fontSize='6xl'
           fontWeight='extrabold'
+          mb={4}
         >
-          Welcome to Chakra UI
+          Welcome to Codeskewl
         </Text>
 
-        <Heading>
-          Heading
-        </Heading>
 
-        <Heading size="lg">
-          Heading
-        </Heading>
-
-        <Heading size="md">
-          Heading
-        </Heading>
-
-        <Heading size="sm">
-          Heading
-        </Heading>
-
-        <br />
-
-        <Flex gap={3} flexWrap={"wrap"}>
-
-
-          <p>
-            Lorem ipsum.
-          </p>
-
-          <Text color="blue.500">
-            Lorem ipsum.
-          </Text>
-
-          <Text color="green.500">
-            Lorem ipsum.
-          </Text>
-
-          <Text color="red.500">
-            Lorem ipsum.
-          </Text>
-
-          <Text color="yellow.500">
-            Lorem ipsum.
-          </Text>
-
-          <Text color="purple.500">
-            Lorem ipsum.
-          </Text>
-
-          <Text color="pink.500">
-            Lorem ipsum.
-          </Text>
-
-          <Text color="teal.500">
-            Lorem ipsum.
-          </Text>
-        </Flex>
-
-        <br />
-
-        <Flex display={"flex"} gap={3} flexWrap={"wrap"}>
-          <Button>
-            Button
-          </Button>
-
-          <Button colorScheme={"blue"}>
-            Button
+        <Flex gap={3} flexWrap={"wrap"} mb={8}>
+          <Button >
+            Get Started
           </Button>
 
           <Button colorScheme={"green"}>
-            Button
+            Contact
           </Button>
-
-          <Button colorScheme={"red"}>
-            Button
-          </Button>
-
-          <Button colorScheme={"yellow"}>
-            Button
-          </Button>
-
-          <Button colorScheme={"purple"}>
-            Button
-          </Button>
-
-          <Button colorScheme={"pink"}>
-            Button
-          </Button>
-
-          <Button colorScheme={"teal"}>
-            Button
-          </Button>
-
         </Flex>
 
-        <br />
+
+
+
+
+
+
 
         <UnorderedList>
           <ListItem>Lorem ipsum dolor sit amet</ListItem>

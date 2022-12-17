@@ -18,6 +18,18 @@ Then, open [http://localhost:3000](http://localhost:3000).
 - [vercel/next](https://github.com/vercel/next)
 - [react-icons](https://react-icons.github.io/react-icons/)
 
+## Proposed Resources
+
+- HTML/CSS
+- JavaScript
+- React
+- Native
+- Web
+- Swift
+- Python
+- Machine Learning
+- Crypto
+
 ## Next.js
 
 - [API routes](https://nextjs.org/docs/api-routes/introduction)

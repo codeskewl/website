@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import {
 	Box,
 	Button,
@@ -48,8 +50,17 @@ function Sidebar() {
 
 					<DrawerBody>
 						<Stack spacing={1}>
-							<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
+
+							<Box as={Link} href="/" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
+								Home
+							</Box>
+
+							<Box as={Link} href="/introduction" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
 								Introduction
+							</Box>
+
+							<Box as={Link} href="/components" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
+								Components
 							</Box>
 
 
@@ -148,10 +159,10 @@ function Sidebar() {
 					</DrawerBody>
 
 					<DrawerFooter>
-						<Button variant='outline' mr={3} onClick={onClose}>
+						{/* <Button variant='outline' mr={3} onClick={onClose}>
 							Cancel
 						</Button>
-						<Button colorScheme='blue'>Save</Button>
+						<Button colorScheme='blue'>Save</Button> */}
 					</DrawerFooter>
 				</DrawerContent>
 			</Drawer>

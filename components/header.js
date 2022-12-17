@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import {
 	Box,
 	Heading,
@@ -21,13 +23,14 @@ function Component() {
 				display="flex"
 				alignItems={"center"}
 				justifyContent={"space-between"}
+				zIndex={400}
 			>
 				<Box display="flex" gap={4} alignItems="center">
 					<Box >
 						<Sidebar />
 					</Box>
-					<Heading position={"relative"} bottom="2px">
-						codeskewl
+					<Heading as={Link} href="/" position={"relative"} bottom="2px">
+						Codeskewl
 					</Heading>
 				</Box>
 
