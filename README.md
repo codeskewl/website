@@ -13,40 +13,38 @@ yarn dev
 
 Then, open [http://localhost:3000](http://localhost:3000).
 
+## Contributing
+
 ## Technologies
 
-- [vercel/next](https://github.com/vercel/next)
+- [next.js](https://github.com/vercel/next.js)
+  <a href="https://google.com" target="_blank"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" width="30px" height="30px" /></a>
+- [chakra-ui](https://github.com/chakra-ui/chakra-ui)
 - [react-icons](https://react-icons.github.io/react-icons/)
 
 ## Proposed Resources
 
-- HTML/CSS
+- HTML
+- CSS
 - JavaScript
 - React
-- Native
+- Native development
 - Web
 - Swift
 - Python
 - Machine Learning
+- Authentication
+- Databases
+- Content Management Systems
 - Crypto
+- Portolio
+  - [Skill Icons](https://github.com/tandpfun/skill-icons)
+  - [Awesome Portfolios](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
 
-## Next.js
+## Helpful Links
 
-- [API routes](https://nextjs.org/docs/api-routes/introduction)
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out
-[the Next.js GitHub repository](https://github.com/vercel/next.js/) - your
-feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the
-[Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
-from the creators of Next.js.
-
-Check out our
-[Next.js deployment documentation](https://nextjs.org/docs/deployment) for more
-details.
+- Next.js
+  - [API routes](https://nextjs.org/docs/api-routes/introduction)
+  - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
+    features and API.
+  - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
