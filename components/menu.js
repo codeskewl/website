@@ -23,7 +23,7 @@ function Menu() {
 
 	return (
 		<>
-			<IconButton ref={btnRef} variant="ghost" rounded="lg" fontSize="xl" onClick={onOpen}>
+			<IconButton ref={btnRef} variant="ghost" rounded="lg" fontSize="2xl" onClick={onOpen}>
 				<BsList />
 			</IconButton>
 			<Drawer

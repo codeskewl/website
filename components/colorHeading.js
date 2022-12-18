@@ -3,7 +3,7 @@ import {
 } from "@chakra-ui/react";
 
 
-function ColorHeading({ gradient = "linear-gradient(270deg,#db59ff 8.88%,#6870de 52.13%,#2ecae6 86.08%)", children }) {
+function ColorHeading({ gradient = "linear-gradient(250deg,#db59ff 8.88%,#6870de 52.13%,#2ecae6 86.08%)", children }) {
 	return (
 		<div>
 			<Heading

@@ -2,42 +2,52 @@ import Link from "next/link";
 
 import {
 	Box,
-	Heading,
-
+	Flex,
+	IconButton,
 } from "@chakra-ui/react";
 
-
+import { BsHouseDoor, BsPerson } from "react-icons/bs";
 import Sidebar from "./sidebar";
 import Menu from "./menu";
 
+import { useRef } from "react";
+
 function Component() {
+	const btnRef = useRef()
+
 	return (
-		<header>
-			<Box
-				position="fixed"
-				alignContent={"center"}
-				top={0}
-				width="100vw"
-				bg="white"
-				p={4}
-				display="flex"
-				alignItems={"center"}
-				justifyContent={"space-between"}
-				zIndex={400}
-			>
-				<Box display="flex" gap={4} alignItems="center">
-					<Box >
-						<Sidebar />
-					</Box>
-					<Heading as={Link} href="/" position={"relative"} bottom="2px">
-						Codeskewl
-					</Heading>
-				</Box>
 
-				<Menu />
+		<Flex
+			position="fixed"
+			alignContent={"center"}
+			top={0}
+			width="100vw"
+			bg="white"
+			p={4}
+			px={[5, 10, 20]}
+			alignItems={"center"}
+			justifyContent="space-between"
+			zIndex={400}
+			a="header"
+		>
+			<Flex gap={2} alignItems="center">
+				<Sidebar />
 
-			</Box>
-		</header>
+				<Link href="/" passHref>
+					<IconButton ref={btnRef} variant="ghost" rounded="lg" fontSize="2xl" >
+						<BsHouseDoor />
+					</IconButton>
+				</Link>
+
+				<Link href="/login" passHref>
+					<IconButton ref={btnRef} variant="ghost" rounded="lg" fontSize="2xl" >
+						<BsPerson />
+					</IconButton>
+				</Link>
+			</Flex>
+
+			<Menu />
+		</Flex>
 	)
 }
 
