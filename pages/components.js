@@ -8,24 +8,21 @@ import {
   ButtonGroup,
   Flex,
   Heading,
-  Text
-} from "@chakra-ui/react";
-
-import {
+  Text,
   List,
   ListItem,
   ListIcon,
   OrderedList,
   UnorderedList,
-} from '@chakra-ui/react'
+} from "@chakra-ui/react";
 
-export default function Home() {
+
+export default function Page() {
   return (
     <div>
       <Head>
-        <title>codeskewl</title>
-        <meta name="description" content="Codeskewl – code is cool!" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Components</title>
+        <meta name="description" content="codeskewl" />
       </Head>
 
       <Box py={[5, 10, 20]} px={[6, 6, 12]}>

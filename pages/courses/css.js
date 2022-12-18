@@ -10,7 +10,6 @@ function Page() {
 			<Head>
 				<title>CSS</title>
 				<meta name="description" content="codeskewl" />
-				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
 			<Section>
