@@ -1,7 +1,15 @@
+import Link from "next/link";
 import Head from "next/head";
-import { Heading } from "@chakra-ui/react";
+
+import {
+	Button,
+	Flex
+} from "@chakra-ui/react";
+
 import Section from "../../components/section";
 import ColorHeading from "../../components/colorHeading";
+import CourseButtons from "../../components/courses/course-buttons";
+
 
 function Page() {
 	return (
@@ -18,6 +26,9 @@ function Page() {
 				>
 					HTML
 				</ColorHeading>
+
+				<CourseButtons disable="HTML" />
+
 			</Section>
 		</>
 	)
