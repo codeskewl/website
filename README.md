@@ -15,6 +15,20 @@ Then, open [http://localhost:3000](http://localhost:3000).
 
 ## Contributing
 
+- [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#summary)
+  - :bug: fix:
+  - :sparkles: feat:
+  - :construction_worker: chore:
+  - :memo: docs:
+  - :lipst docs:
+  - :lipstick: style:
+  - :art: refactor:
+  - :zap: perf:
+  - :test_tube: test:
+  - :fire: remove:
+- [gitmoji](https://gitmoji.dev/)
+- [gitcommitemoji](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
+
 ## Technologies
 
 - [next.js](https://github.com/vercel/next.js)
@@ -37,6 +51,7 @@ Then, open [http://localhost:3000](http://localhost:3000).
 - Databases
 - Content Management Systems
 - Crypto
+- UI Library
 - Portolio
   - [Skill Icons](https://github.com/tandpfun/skill-icons)
   - [Awesome Portfolios](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
