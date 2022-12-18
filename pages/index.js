@@ -8,39 +8,35 @@ import {
   ButtonGroup,
   Flex,
   Heading,
-  Text
-} from "@chakra-ui/react";
-
-import {
-  List,
+  Text, List,
   ListItem,
   ListIcon,
   OrderedList,
   UnorderedList,
-} from '@chakra-ui/react'
+
+} from "@chakra-ui/react";
+
+import Section from '../components/section';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>codeskewl</title>
-        <meta name="description" content="Codeskewl – code is cool!" />
+        <title>Home</title>
+        <meta name="description" content="codeskewl" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
-
-
-      <Box py={[5, 10, 20]} px={[6, 6, 12]} mt={8}>
-        <Text
+      <Section>
+        <Heading
           bgGradient={"linear-gradient(270deg,#db59ff 8.88%,#6870de 52.13%,#2ecae6 86.08%)"}
           bgClip='text'
-          fontSize='6xl'
+          fontSize={["2xl", "4xl", '5xl']}
           fontWeight='extrabold'
           mb={4}
         >
           Welcome to Codeskewl
-        </Text>
+        </Heading>
 
         <Text mb={8}>
           Codeskewl is an interactive set of resources meant to increase your visibility with regards to what's possible on the web and beyond.
@@ -57,20 +53,13 @@ export default function Home() {
           </Button>
         </Flex>
 
-
-
-
-
-
-
-
         <UnorderedList>
           <ListItem>Lorem ipsum dolor sit amet</ListItem>
           <ListItem>Consectetur adipiscing elit</ListItem>
           <ListItem>Integer molestie lorem at massa</ListItem>
           <ListItem>Facilisis in pretium nisl aliquet</ListItem>
         </UnorderedList>
-      </Box>
+      </Section>
 
       <Box bg="green.200" height="400px">
 
@@ -88,6 +77,6 @@ export default function Home() {
 
       </Box>
 
-    </div>
+    </div >
   )
 }
