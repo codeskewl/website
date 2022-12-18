@@ -10,6 +10,7 @@ import {
 import Section from "../../components/section";
 import ColorHeading from "../../components/colorHeading";
 import Link from "../../components/link";
+import CourseButtons from "../../components/courses/course-buttons";
 
 function Page() {
 	return (
@@ -26,8 +27,7 @@ function Page() {
 					Overview
 				</ColorHeading>
 
-				<UnorderedList pl={10}>
-
+				<UnorderedList pl={10} mb={8}>
 					<ListItem fontSize="lg">
 						<Link href="/courses/html">
 							HTML
@@ -46,7 +46,21 @@ function Page() {
 						</Link>
 					</ListItem>
 
+					<ListItem fontSize="lg">
+						Lorem
+					</ListItem>
+
+					<ListItem fontSize="lg">
+						Lorem
+					</ListItem>
+
+					<ListItem fontSize="lg">
+						Lorem
+					</ListItem>
+
 				</UnorderedList>
+
+				<CourseButtons />
 			</Section>
 		</>
 	)
