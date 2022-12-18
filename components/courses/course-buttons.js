@@ -12,19 +12,22 @@ function CourseButtons({ disable }) {
 		</Link>
 	};
 
+	function zeroButton() {
+		return <Link href="/courses">
+			<Button size="sm" rounded="full" disabled={disable == undefined}>
+				Courses
+			</Button>
+		</Link>
+	}
+
 	return (
 		<Flex gap={2} wrap="wrap">
 
-			<Link href="/courses">
-				<Button size="sm" rounded="full">
-					Courses
-				</Button>
-			</Link>
+
+			{zeroButton()}
 
 
-			{
-				Courses.map(courseButton)
-			}
+			{Courses.map(courseButton)}
 		</Flex>
 	)
 }
