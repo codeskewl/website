@@ -17,7 +17,6 @@ function Page() {
 			<Head>
 				<title>Courses</title>
 				<meta name="description" content="codeskewl" />
-				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
 			<Section>

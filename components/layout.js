@@ -1,6 +1,5 @@
 import Header from "./header";
 import Footer from "./footer";
-import Head from "next/head";
 import { Box } from "@chakra-ui/react";
 
 export default function Layout({ children }) {

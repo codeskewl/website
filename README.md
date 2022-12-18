@@ -20,7 +20,6 @@ Then, open [http://localhost:3000](http://localhost:3000).
   - :sparkles: feat:
   - :construction_worker: chore:
   - :memo: docs:
-  - :lipst docs:
   - :lipstick: style:
   - :art: refactor:
   - :zap: perf:

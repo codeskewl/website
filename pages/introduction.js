@@ -19,13 +19,12 @@ import {
   UnorderedList,
 } from '@chakra-ui/react'
 
-export default function Home() {
+export default function Page() {
   return (
     <div>
       <Head>
-        <title>codeskewl</title>
-        <meta name="description" content="Codeskewl – code is cool!" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Introduction</title>
+        <meta name="description" content="codeskewl" />
       </Head>
 
       <Box py={[5, 10, 20]} px={[6, 6, 12]}>
