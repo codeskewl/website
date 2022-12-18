@@ -35,7 +35,7 @@ function Menu() {
 				<DrawerOverlay />
 				<DrawerContent>
 					<DrawerCloseButton rounded="lg" left={4} float="left" size="lg" fontSize="sm" />
-					<DrawerHeader textAlign={"right"}>codeskewl</DrawerHeader>
+					<DrawerHeader textAlign={"right"}>Menu</DrawerHeader>
 
 					<DrawerBody>
 						<Heading>
@@ -44,10 +44,10 @@ function Menu() {
 					</DrawerBody>
 
 					<DrawerFooter>
-						<Button variant='outline' mr={3} onClick={onClose}>
+						{/* <Button variant='outline' mr={3} onClick={onClose}>
 							Cancel
 						</Button>
-						<Button colorScheme='blue'>Save</Button>
+						<Button colorScheme='blue'>Save</Button> */}
 					</DrawerFooter>
 				</DrawerContent>
 			</Drawer>
