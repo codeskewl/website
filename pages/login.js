@@ -1,7 +1,6 @@
 
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import {
   Box,
   Button,
@@ -24,13 +23,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>Login</title>
         <meta name="description" content="codeskewl" />
       </Head>
 
       <Section>
-        <ColorHeading>
-          Welcome to Codeskewl
+        <ColorHeading
+          gradient={"linear-gradient(110deg, green.500, yellow.400)"}
+        >
+          Login
         </ColorHeading>
 
         <Text mb={8}>
