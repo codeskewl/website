@@ -15,6 +15,7 @@ import {
   OrderedList,
   UnorderedList,
 } from "@chakra-ui/react";
+import Section from '../components/section';
 
 
 export default function Page() {
@@ -25,7 +26,7 @@ export default function Page() {
         <meta name="description" content="codeskewl" />
       </Head>
 
-      <Box py={[5, 10, 20]} px={[6, 6, 12]}>
+      <Section>
 
         <Text
           bgGradient='linear(-15deg, #FF0080, #7928CA)'
@@ -55,8 +56,6 @@ export default function Page() {
         <br />
 
         <Flex gap={3} flexWrap={"wrap"}>
-
-
           <p>
             Lorem ipsum.
           </p>
@@ -135,23 +134,7 @@ export default function Page() {
           <ListItem>Integer molestie lorem at massa</ListItem>
           <ListItem>Facilisis in pretium nisl aliquet</ListItem>
         </UnorderedList>
-      </Box>
-
-      <Box bg="green.200" height="400px">
-
-      </Box>
-
-      <Box bg="red.200" height="500px">
-
-      </Box>
-
-      <Box bg="blue.200" height="500px">
-
-      </Box>
-
-      <Box bg="teal.200" height="500px">
-
-      </Box>
+      </Section>
 
     </div>
   )

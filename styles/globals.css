@@ -37,3 +37,11 @@ a {
 .chakra-accordion__item::after {
   border-style: none !important;
 }
+
+.cl-internal {
+  display: none !important;
+} 
+
+.cl-card {
+  box-shadow: none !important;
+}

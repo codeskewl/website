@@ -56,21 +56,6 @@ export default function Home() {
         </UnorderedList>
       </Section>
 
-      <Box bg="green.200" height="400px">
-
-      </Box>
-
-      <Box bg="red.200" height="500px">
-
-      </Box>
-
-      <Box bg="blue.200" height="500px">
-
-      </Box>
-
-      <Box bg="teal.200" height="500px">
-
-      </Box>
 
     </div >
   )
