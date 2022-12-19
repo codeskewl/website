@@ -1,3 +1,4 @@
+import Link from "../components/link";
 import {
 	Box,
 	Button,
@@ -10,7 +11,8 @@ import {
 	DrawerOverlay,
 	DrawerContent,
 	DrawerCloseButton,
-	useDisclosure
+	useDisclosure,
+	Stack
 } from "@chakra-ui/react";
 
 
@@ -41,6 +43,33 @@ function Menu() {
 						<Heading>
 
 						</Heading>
+
+						<Stack fontSize={"lg"} spacing={2}>
+							<Box>
+								<Box onClick={onClose} display="inline-block">
+									<Link href="/">
+										Home
+									</Link>
+								</Box>
+							</Box>
+
+
+							<Box >
+								<Box onClick={onClose} display="inline-block">
+									<Link href="/profile" >
+										Profile
+									</Link>
+								</Box>
+							</Box>
+
+							<Box>
+								<Box onClick={onClose} display="inline-block">
+									<Link href="/account">
+										Account
+									</Link>
+								</Box>
+							</Box>
+						</Stack>
 					</DrawerBody>
 
 					<DrawerFooter>

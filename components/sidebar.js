@@ -13,7 +13,9 @@ import {
 	DrawerContent,
 	DrawerCloseButton,
 	useDisclosure,
-	Stack
+	Stack,
+	Badge,
+	Flex,
 } from "@chakra-ui/react";
 
 import {
@@ -70,126 +72,43 @@ function Sidebar() {
 												Overview
 											</Box>
 
-											<Box as={Link} href="/courses/html" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
-												HTML
-											</Box>
+											<Flex display="flex" as={Link} href="/courses/html" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose} gap={2} alignItems="center">
+												<Box  >
+													HTML
+												</Box>
 
-											<Box as={Link} href="/courses/css" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
-												CSS
-											</Box>
+												<Box position="relative" bottom="0.08rem">
+													<Badge colorScheme='blue'>Free</Badge>
+												</Box>
+											</Flex>
 
-											<Box as={Link} href="/courses/javascript" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
-												JavaScript
-											</Box>
+
+											<Flex display="flex" as={Link} href="/courses/css" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose} gap={2} alignItems="center">
+												<Box  >
+													CSS
+												</Box>
+
+												<Box position="relative" bottom="0.08rem">
+													<Badge colorScheme='blue'>Free</Badge>
+												</Box>
+											</Flex>
+
+											<Flex display="flex" as={Link} href="/courses/javascript" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose} gap={2} alignItems="center">
+												<Box  >
+													JavaScript
+												</Box>
+
+												<Box position="relative" bottom="0.08rem">
+													<Badge colorScheme='green'>Paid</Badge>
+												</Box>
+											</Flex>
+
+
 										</Stack>
 									</AccordionPanel>
 								</AccordionItem>
 							</Accordion>
 
-
-
-
-
-							<Box as={Link} href="/introduction" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
-								Introduction
-							</Box>
-
-							<Box as={Link} href="/components" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
-								Components
-							</Box>
-
-
-
-
-							<Accordion allowToggle outline={"none"} borderStyle="none">
-								<AccordionItem>
-									<h2>
-										<AccordionButton width="100%" as={Box} rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" display="flex" justifyContent={"space-between"}>
-											Title 1
-
-											<AccordionIcon float="right" />
-										</AccordionButton>
-									</h2>
-									<AccordionPanel padding="0" pb={4} border="none" >
-										<Stack spacing={1} pt={1} pl={6} pr={3}>
-											<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
-												foobar
-											</Box>
-
-											<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
-												foobar
-											</Box>
-
-
-											<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
-												foobar
-											</Box>
-										</Stack>
-									</AccordionPanel>
-								</AccordionItem>
-							</Accordion>
-
-							<Accordion allowToggle outline={"none"} borderStyle="none">
-								<AccordionItem>
-									<h2>
-										<AccordionButton width="100%" as={Box} rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" display="flex" justifyContent={"space-between"}>
-											Title 2
-
-											<AccordionIcon float="right" />
-										</AccordionButton>
-									</h2>
-									<AccordionPanel padding="0" pb={4} border="none" >
-										<Stack spacing={1} pt={1} pl={6} pr={3}>
-											<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
-												foobar
-											</Box>
-
-											<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
-												foobar
-											</Box>
-
-											<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
-												foobar
-											</Box>
-										</Stack>
-									</AccordionPanel>
-								</AccordionItem>
-							</Accordion>
-
-							<Accordion allowToggle outline={"none"} borderStyle="none">
-								<AccordionItem>
-									<h2>
-										<AccordionButton width="100%" as={Box} rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" display="flex" justifyContent={"space-between"}>
-											Resources
-
-											<AccordionIcon float="right" />
-										</AccordionButton>
-									</h2>
-									<AccordionPanel padding="0" pb={4} border="none" >
-										<Stack spacing={1} pt={1} pl={6} pr={3}>
-											<Box as={Link} href="/courses" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
-												Home
-											</Box>
-
-											<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
-												HTML
-											</Box>
-
-											<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
-												CSS
-											</Box>
-
-											<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
-												JavaScript
-											</Box>
-										</Stack>
-									</AccordionPanel>
-								</AccordionItem>
-							</Accordion>
-
-							<Box rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer">
-								Contact
-							</Box>
 
 							<Accordion allowToggle outline={"none"} borderStyle="none">
 								<AccordionItem>
@@ -219,6 +138,17 @@ function Sidebar() {
 									</AccordionPanel>
 								</AccordionItem>
 							</Accordion>
+
+
+							<Box as={Link} href="/introduction" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
+								Introduction
+							</Box>
+
+							<Box as={Link} href="/components" rounded="md" _hover={{ bg: "gray.100" }} padding={"0.5rem 1rem"} border="0.1rem solid gray.400" cursor="pointer" onClick={onClose}>
+								Components
+							</Box>
+
+
 						</Stack>
 					</DrawerBody>
 

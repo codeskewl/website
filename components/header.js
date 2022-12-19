@@ -39,7 +39,7 @@ function Component() {
 					</IconButton>
 				</Link>
 
-				<Link href="/login" passHref>
+				<Link href="/profile" passHref>
 					<IconButton ref={btnRef} variant="ghost" rounded="lg" fontSize="2xl" >
 						<BsPerson />
 					</IconButton>
